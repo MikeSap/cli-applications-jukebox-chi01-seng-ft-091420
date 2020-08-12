@@ -31,3 +31,15 @@ def play(songs)
   
   
   def run 
+    puts "Please enter a command:"
+    command = gets.strip
+    if command == "help"
+      help
+      elsif command == "list"
+      list
+      elsif command == "play"
+      play
+    else
+      puts "Invalid input, please try again"
+  end
+  end
