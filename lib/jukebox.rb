@@ -41,9 +41,9 @@ def play(songs)
     if command == "help"
       help
       elsif command == "list"
-      list
+      list(songs)
       elsif command == "play"
-      play
+      play(songs)
     else
       puts "Invalid input, please try again"
     end
