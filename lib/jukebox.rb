@@ -39,6 +39,8 @@ def play(songs)
       list
       elsif command == "play"
       play
+      elsif command == "exit"
+     puts  "Goodbye"
     else
       puts "Invalid input, please try again"
   end
