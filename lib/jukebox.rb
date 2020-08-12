@@ -33,6 +33,7 @@ def play(songs)
   def run 
     puts "Please enter a command:"
     command = gets.strip
+    while command !exit
     if command == "help"
       help
       elsif command == "list"
