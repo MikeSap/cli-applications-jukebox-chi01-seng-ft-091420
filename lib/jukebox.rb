@@ -34,7 +34,7 @@ def play(songs)
   end
   
   
-  def run 
+  def run(songs)
     puts "Please enter a command:"
     command = gets.strip
     while command != exit
